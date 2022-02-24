@@ -21,6 +21,15 @@ Savoir manipuler le langage JavaScript sur la plateforme du navigateur Web afin 
 - [ ] Sujet (date à prévoir)
 - [ ] Date de soutenance (date à prévoir)
 
+## Références
+
+- [Vite (serveur de développement local très rapide)](https://vitejs.dev/)
+- [Vitest (suite de tests utilisant Vite)](https://vitest.dev/)
+- [Vitesse (framework Vue moderne)](https://github.com/antfu/vitesse)
+- [Design Pattern Observer](https://refactoring.guru/design-patterns/observer)
+- [Perf.link (permet de tester des algorithmes sur son navigateur)](https://perf.link)
+- [Algorithme et explication derrière le numéro SIREN](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27identification_du_r%C3%A9pertoire_des_entreprises)
+
 ## Sommaire
 
 - [ ] [Chapitre 01 : Types de données scalaires](./chapitre-01)
