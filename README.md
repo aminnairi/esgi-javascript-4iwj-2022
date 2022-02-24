@@ -29,6 +29,7 @@ Savoir manipuler le langage JavaScript sur la plateforme du navigateur Web afin 
 - [Design Pattern Observer](https://refactoring.guru/design-patterns/observer)
 - [Perf.link (permet de tester des algorithmes sur son navigateur)](https://perf.link)
 - [Algorithme et explication derrière le numéro SIREN](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27identification_du_r%C3%A9pertoire_des_entreprises)
+- [Hyperapp (framework JavaScript)](https://github.com/JorgeBucaran/hyperapp)
 
 ## Sommaire
 
