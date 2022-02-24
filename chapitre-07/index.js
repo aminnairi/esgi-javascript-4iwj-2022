@@ -122,10 +122,11 @@ for (let currentIndex = 0; currentIndex < sortedProducts.length; currentIndex++)
 console.log(sortedProducts);
 
 console.log(products.sort((currentProduct, nextProduct) => {
+  return currentProduct[2] - nextProduct[2];
+
   if (currentProduct[2] < nextProduct[2]) {
     return -1;
   }
 
   return 0;
-  currentProduct[2] - nextProduct[2]
 }));
