@@ -32,13 +32,13 @@ Savoir manipuler le langage JavaScript sur la plateforme du navigateur Web afin 
 
 ## Sommaire
 
-- [ ] [Chapitre 01 : Types de données scalaires](./chapitre-01)
-- [ ] [Chapitre 02 : Les déclarations](./chapitre-02)
-- [ ] [Chapitre 03 : Les chaînes de caractères](./chapitre-03)
-- [ ] [Chapitre 04 : les opérateurs arithmétiques, comparaison et logiques](./chapitre-04)
-- [ ] [Chapitre 05 : les structures conditionnelles](./chapitre-05)
-- [ ] [Chapitre 06 : les boucles](./chapitre-06)
-- [ ] [Chapitre 07 : les tableaux](./chapitre-07)
+- [x] [Chapitre 01 : Types de données scalaires](./chapitre-01)
+- [x] [Chapitre 02 : Les déclarations](./chapitre-02)
+- [x] [Chapitre 03 : Les chaînes de caractères](./chapitre-03)
+- [x] [Chapitre 04 : les opérateurs arithmétiques, comparaison et logiques](./chapitre-04)
+- [x] [Chapitre 05 : les structures conditionnelles](./chapitre-05)
+- [x] [Chapitre 06 : les boucles](./chapitre-06)
+- [x] [Chapitre 07 : les tableaux](./chapitre-07)
 - [ ] [Chapitre 08 : les objets](./chapitre-08)
 - [ ] [Chapitre 09 : Les fonctions](./chapitre-09)
 - [ ] [Chapitre 10 : Les constructeurs](./chapitre-10)
