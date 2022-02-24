@@ -6,6 +6,13 @@ const firstName = "Amin";
 // Délimitation avec apostrophes
 const lastName = 'NAIRI';
 
+// Accès à un index de la chaîne de caractère
+const firstCharacter = lastName[0];
+
+// Accès à un index en utilisant une variable
+const characterIndex = 1;
+const secondCharacter = lastName[characterIndex];
+
 // Taille d'une chaîne de caractères
 const firstNameLength = lastName.length;
 
