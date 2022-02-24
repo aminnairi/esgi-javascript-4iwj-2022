@@ -1,7 +1,3 @@
-// Exercice : calculer la validité d'un numéro SIREN
-
-console.log("les boucles");
-
 // La boucle while
 let index = 5;
 
@@ -25,3 +21,7 @@ for (let index = 0; index < 5; index++) {
 
 // 5
 console.log(index);
+
+// Exercice : calculer la validité d'un numéro SIREN
+
+let sirenNumber = 732829320;
