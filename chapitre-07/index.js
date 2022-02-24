@@ -98,9 +98,34 @@ const products = [
   [3, "marker", 2]
 ];
 
-// Sortie attendue
-const sortedProducts = [
-  [3, "marker", 2],
-  [2, "eraser", 16],
-  [1, "pen", 43]
-];
+// Copier le tableau (in-place)
+const sortedProducts = [...products];
+
+for (let currentIndex = 0; currentIndex < sortedProducts.length; currentIndex++) {
+  const currentProduct = sortedProducts[currentIndex];
+
+  let lowestProduct = currentProduct;
+  let lowestProductIndex = currentIndex;
+
+  for (let nextIndex = currentIndex + 1; nextIndex < sortedProducts.length; nextIndex++) {
+    const nextProduct = sortedProducts[nextIndex];
+
+    if (nextProduct[2] < lowestProduct[2]) {
+      lowestProduct = nextProduct;
+      lowestProductIndex = nextIndex;
+    }
+  }
+
+  [sortedProducts[currentIndex], sortedProducts[lowestProductIndex]] = [sortedProducts[lowestProductIndex], sortedProducts[currentIndex]];
+}
+
+console.log(sortedProducts);
+
+console.log(products.sort((currentProduct, nextProduct) => {
+  if (currentProduct[2] < nextProduct[2]) {
+    return -1;
+  }
+
+  return 0;
+  currentProduct[2] - nextProduct[2]
+}));
