@@ -111,25 +111,11 @@ const users = [
   }
 ];
 
-// Sortie attendue
-const indexedUsers = {
-  "JavaScript": [
-    {
-      id: 1,
-      username: "aminnairi",
-      language: "JavaScript"
-    },
-    {
-      id: 3,
-      username: "lucaslavander",
-      language: "JavaScript"
-    }
-  ],
-  "PHP": [
-    {
-      id: 2,
-      username: "quentinhermiteau",
-      language: "PHP"
-    }
-  ]
-};
+const indexedUsers = {};
+
+for (const user of users) {
+  if (indexedUsers[user.language] === undefined) {
+    
+    continue;;
+  }
+}

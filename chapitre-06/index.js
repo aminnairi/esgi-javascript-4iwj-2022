@@ -19,6 +19,25 @@ for (let index = 0; index < 5; index++) {
   // console.log(index);
 }
 
+// Break
+
+for (let index = 0; index < 10; index++) {
+  console.log(index);
+  // Arrête complètement la boucle à partir d'ici
+  break;
+}
+
+// Continue
+for (let index = 0; index < 10; index++) {
+  if (index % 2 === 0) {
+    // Les instructions suivantes ne sont pas exécutées
+    continue;
+  }
+
+  // N'affiche que les nombres impairs
+  console.log(index);
+}
+
 // 5
 // console.log(index);
 
