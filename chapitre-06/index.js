@@ -1,4 +1,5 @@
 // Exercice : calculer la validité d'un numéro SIREN
+
 console.log("les boucles");
 
 // La boucle while
