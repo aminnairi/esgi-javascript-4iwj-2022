@@ -6,14 +6,14 @@ Savoir manipuler le langage JavaScript sur la plateforme du navigateur Web afin 
 
 ## Pré-requis
 
-- Navigateur Web
-- Éditeur de texte
-- Docker
-- Docker Compose
+- [Navigateur Web](https://www.google.com/chrome/index.html)
+- [Éditeur de texte](https://code.visualstudio.com/)
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
 ## Contrôles continus
 
-- [ ] Premier contrôle continu (date à prévoir)
+- [ ] Premier contrôle continu : 25/03/2022
 - [ ] Deuxième contrôle continu (date à prévoir)
 
 ## Examen
@@ -40,7 +40,7 @@ Savoir manipuler le langage JavaScript sur la plateforme du navigateur Web afin 
 - [X] [Chapitre 05 : les structures conditionnelles](./chapitre-05)
 - [X] [Chapitre 06 : les boucles](./chapitre-06)
 - [X] [Chapitre 07 : les tableaux](./chapitre-07)
-- [ ] [Chapitre 08 : les objets](./chapitre-08)
+- [X] [Chapitre 08 : les objets](./chapitre-08)
 - [ ] [Chapitre 09 : Les fonctions](./chapitre-09)
 - [ ] [Chapitre 10 : Les constructeurs](./chapitre-10)
 - [ ] [Chapitre 11 : Les erreurs](./chapitre-11)
