@@ -85,6 +85,7 @@ const computer = {
 
 console.log(computer.brand);
 
+// Modification de la valeur de la propriété "brand"
 computer.brand = "mac os x";
 
 console.log(computer.brand);
@@ -111,11 +112,22 @@ const users = [
   }
 ];
 
+// Objet contenant les utilisateurs, indexés par langage
 const indexedUsers = {};
 
 for (const user of users) {
+  // Si la propriété ("JavaScript" ou "PHP") n'existe pas encore dans l'objet
   if (indexedUsers[user.language] === undefined) {
-    
-    continue;;
+    // On créé un tableau avec un seul élément, notre utilisateur courant
+    indexedUsers[user.language] = [user];
+  } else {
+    // On ajoute l'utilisateur courants aux utilisateurs déjà existants pour ce langage
+    indexedUsers[user.language].push(user);
   }
 }
+
+// Affiche deux utilisateurs (Amin et Lucas)
+console.log(indexedUsers["JavaScript"]);
+
+// Affiche un seul utilisateur (Quentin)
+console.log(indexedUsers["PHP"]);
