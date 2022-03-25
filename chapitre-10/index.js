@@ -116,15 +116,29 @@ console.log(electricCar.brand);
 // Vérification de la présence d'une propriété dans la chaîne de prototypes
 
 // EXERCICE 1
-// Text
+// Text("...")
 // methode : split -> List
 // methode : toUpper -> Text
 // method : toString -> "ABCDE"
 //
-// List
+// List(["", "", "", "", ""])
 // methode : join -> Text
 // methode : map -> (prend en paramètre une fonction) List
 // methode : toString -> ""
+
+const text = new Text("bonjour");
+
+text.toUpper();
+
+console.log(text.toString()); // "BONJOUR"
+
+const list = text.split(); // List { characters: [ "B", "O", "N", "J", "O", "U", "R" ] } 
+
+list.map(function(character) {
+  return character.toLowerCase();
+})
+
+console.log(list.join().toString()); // "bonjour"
 
 // EXERCICE 2
 // Player ->
