@@ -30,6 +30,20 @@ Savoir manipuler le langage JavaScript sur la plateforme du navigateur Web afin 
 - [Perf.link (permet de tester des algorithmes sur son navigateur)](https://perf.link)
 - [Algorithme et explication derrière le numéro SIREN](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27identification_du_r%C3%A9pertoire_des_entreprises)
 - [Hyperapp (framework JavaScript)](https://github.com/JorgeBucaran/hyperapp)
+- [Références des API Web](https://developer.mozilla.org/en-US/docs/Web/API)
+- [Web API Notification](https://developer.mozilla.org/en-US/docs/Web/API/Notification/Notification)
+- [Web API CSSOM](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model)
+- [Web API Console](https://developer.mozilla.org/en-US/docs/Web/API/console)
+- [NAPI Console](https://nodejs.org/dist/latest-v17.x/docs/api/console.html)
+- [Web API Window](https://developer.mozilla.org/en-US/docs/Web/API/Window)
+- [Web API Navigator](https://developer.mozilla.org/en-US/docs/Web/API/Window/navigator)
+- [Web API Document](https://developer.mozilla.org/en-US/docs/Web/API/Window/document)
+- [Organisme de standardisation du Web W3C](https://www.w3.org/)
+- [Organisme de standardisation du langage JavaScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+- [Transpilateur de code récent vers ancien en pour JavaScript](https://babeljs.io/)
+- [Pipe Operator](https://2ality.com/2022/01/pipe-operator.html)
+- [Elm : langage fonctionnel pour créer des sites Web dynamiques](https://elm-lang.org/)
+- [Capacitor : transformer une application Web en application Android/iOS](https://capacitorjs.com/)
 
 ## Sommaire
 
