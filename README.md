@@ -13,7 +13,7 @@ Savoir manipuler le langage JavaScript sur la plateforme du navigateur Web afin 
 
 ## Contrôles continus
 
-- [ ] Premier contrôle continu : 25/03/2022
+- [ ] Premier contrôle continu : 20/04/2022
 - [ ] Deuxième contrôle continu (date à prévoir)
 
 ## Examen
