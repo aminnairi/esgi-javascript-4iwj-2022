@@ -55,6 +55,6 @@ Savoir manipuler le langage JavaScript sur la plateforme du navigateur Web afin 
 - [X] [Chapitre 06 : les boucles](./chapitre-06)
 - [X] [Chapitre 07 : les tableaux](./chapitre-07)
 - [X] [Chapitre 08 : les objets](./chapitre-08)
-- [ ] [Chapitre 09 : Les fonctions](./chapitre-09)
+- [X] [Chapitre 09 : Les fonctions](./chapitre-09)
 - [ ] [Chapitre 10 : Les constructeurs](./chapitre-10)
 - [ ] [Chapitre 11 : Les erreurs](./chapitre-11)
