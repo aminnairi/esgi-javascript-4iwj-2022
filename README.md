@@ -13,7 +13,7 @@ Savoir manipuler le langage JavaScript sur la plateforme du navigateur Web afin 
 
 ## Contrôles continus
 
-- [ ] Premier contrôle continu : 20/04/2022
+- [X] Premier contrôle continu : 20/04/2022
 - [ ] Deuxième contrôle continu (date à prévoir)
 
 ## Examen
@@ -59,7 +59,7 @@ Savoir manipuler le langage JavaScript sur la plateforme du navigateur Web afin 
 - [X] [Chapitre 07 : les tableaux](./chapitre-07)
 - [X] [Chapitre 08 : les objets](./chapitre-08)
 - [X] [Chapitre 09 : Les fonctions](./chapitre-09)
-- [ ] [Chapitre 10 : Les constructeurs](./chapitre-10)
+- [X] [Chapitre 10 : Les constructeurs](./chapitre-10)
 - [ ] [Chapitre 11 : Les erreurs](./chapitre-11)
 - [ ] Chapitre 12 : Les intervales et timeout
 - [ ] Chapitre 13 : Les promesses
