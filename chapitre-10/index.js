@@ -126,6 +126,73 @@ console.log(electricCar.brand);
 // methode : map -> (prend en paramètre une fonction) List
 // methode : toString -> ""
 
+function Text(text) {
+  this.text = text;
+}
+
+function List(items) {
+  this.items = items;
+}
+
+Text.prototype.split = function() {
+  const textLength = this.text.length;
+  const characters = [];
+
+  for (let index = 0; index < textLength; index++) {
+    characters[index] = this.text[index];
+  }
+
+  return new List(characters);
+};
+
+Text.prototype.toUpper = function() {
+  let upperText = "";
+
+  for (const character of this.text) {
+    upperText += character.toUpperCase();
+  }
+
+  this.text = upperText;
+
+  return this;
+};
+
+Text.prototype.toString = function() {
+  return this.text;
+};
+
+List.prototype.join = function() {
+  let text = "";
+
+  for (const item of this.items) {
+    text += item;
+  }
+
+  return new Text(text);
+};
+
+List.prototype.map = function(update) {
+  const updatedItems = [];
+
+  for (let index = 0; index < this.items.length; index++) {
+    updatedItems[index] = update(this.items[index]);
+  }
+
+  this.items = updatedItems;
+
+  return this;
+}
+
+List.prototype.toString = function() {
+  const string = "";
+
+  for (const item of this.items) {
+    string += item;
+  }
+
+  return string;
+};
+
 const text = new Text("bonjour");
 
 text.toUpper();
@@ -152,4 +219,47 @@ console.log(list.join().toString()); // "bonjour"
 // methode : describeFaction -> faction
 //
 // Player -> Orc
-// method how : -> string (un cri)
+// method howl : -> string (un cri)
+
+function Player(name, health) {
+  this.fullname = name;
+  this.health = health;
+}
+
+Player.prototype.describe = function() {
+  return `Name = ${this.fullname}, health = ${this.health}`;
+};
+
+function Human(name, health, faction) {
+  // super(name, health);
+  Player.call(this, name, health);
+
+  this.faction = faction;
+  this.describeFaction = function() {
+    return `${this.describe()}, faction = ${this.faction}`;
+  };
+}
+
+Human.prototype = Object.create(Player.prototype);
+
+function Orc(name, health) {
+  Player.call(this, name, health);
+
+  this.howl = function() {
+    return "Cri d'orc";
+  };
+}
+
+Orc.prototype = Object.create(Player.prototype);
+
+const orc = new Orc("Arthas", 100);
+const human = new Human("Thrall", 200);
+const player = new Player("Amin", 100000);
+
+console.log(orc.howl());
+console.log(human.describeFaction());
+console.log(player.describe());
+
+console.log(orc instanceof Orc);
+console.log(human instanceof Human);
+console.log(player instanceof Player);

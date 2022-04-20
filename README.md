@@ -44,6 +44,9 @@ Savoir manipuler le langage JavaScript sur la plateforme du navigateur Web afin 
 - [Pipe Operator](https://2ality.com/2022/01/pipe-operator.html)
 - [Elm : langage fonctionnel pour créer des sites Web dynamiques](https://elm-lang.org/)
 - [Capacitor : transformer une application Web en application Android/iOS](https://capacitorjs.com/)
+- [React en Ocaml](https://reasonml.github.io/reason-react/)
+- [Redux inspiré de Elm](https://redux.js.org/understanding/history-and-design/prior-art#elm)
+- [Pourquoi la programmation fonctionnelle n'est-elle pas la norme ?](https://www.youtube.com/watch?v=QyJZzq0v7Z4&t=19s)
 
 ## Sommaire
 
@@ -58,3 +61,24 @@ Savoir manipuler le langage JavaScript sur la plateforme du navigateur Web afin 
 - [X] [Chapitre 09 : Les fonctions](./chapitre-09)
 - [ ] [Chapitre 10 : Les constructeurs](./chapitre-10)
 - [ ] [Chapitre 11 : Les erreurs](./chapitre-11)
+- [ ] Chapitre 12 : Les intervales et timeout
+- [ ] Chapitre 13 : Les promesses
+- [ ] Chapitre 14 : Les fonctions asynchrones
+- [ ] Chapitre 15 : Les itérateurs et générateurs
+- [ ] Chapitre 15 : Les itérateurs et générateurs asynchrones
+- [ ] Chapitre 16 : Les modules ECMAScript
+- [ ] Chapitre 17 : Web API : DOM
+- [ ] Chapitre 18 : Web API : CSSOM
+- [ ] Chapitre 19 : Web API : Fetch
+- [ ] Chapitre 20 : Web API : Storage
+- [ ] Chapitre 21 : Web API : Notification
+- [ ] Chapitre 22 : Web API : Broadcast Channel
+- [ ] Chapitre 23 : Web API : Clipboard API
+- [ ] Chapitre 24 : Web API : History API
+- [ ] Chapitre 25 : Web API : URL Pattern API
+- [ ] Chapitre 26 : Web API : Resize Observer
+- [ ] Chapitre 27 : Web API : Mutation Observer
+- [ ] Chapitre 28 : Web API : Intersection Observer
+- [ ] Chapitre 29 : Web API : IndexedDB
+- [ ] Chapitre 30 : Web API : WebSocket
+- [ ] Chapitre 31 : Web API : Vibration API
