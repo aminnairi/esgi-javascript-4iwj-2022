@@ -1,5 +1,16 @@
 # esgi-javascript-4iwj-2022
 
+## Séances
+
+- [X] Séance #1
+- [X] Séance #2
+- [X] Séance #3
+- [X] Séance #4
+- [X] Séance #5
+- [ ] Séance #6
+- [ ] Séance #7
+- [ ] Séance #8
+
 ## Objectif
 
 Savoir manipuler le langage JavaScript sur la plateforme du navigateur Web afin de modifier des documents HTML dynamiquement.
