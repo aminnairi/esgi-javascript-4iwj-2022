@@ -72,9 +72,9 @@ Savoir manipuler le langage JavaScript sur la plateforme du navigateur Web afin 
 - [X] [Chapitre 09 : Les fonctions](./chapitre-09)
 - [X] [Chapitre 10 : Les constructeurs](./chapitre-10)
 - [ ] [Chapitre 11 : Les erreurs](./chapitre-11)
-- [ ] Chapitre 12 : Les intervales et timeout
-- [ ] Chapitre 13 : Les promesses
-- [ ] Chapitre 14 : Les fonctions asynchrones
+- [ ] [Chapitre 12 : Les intervales et timeout](./chapitre-12)
+- [ ] [Chapitre 13 : Les promesses](./chapitre-13)
+- [ ] [Chapitre 14 : Les fonctions asynchrones](./chapitre-14)
 - [ ] Chapitre 15 : Les itérateurs et générateurs
 - [ ] Chapitre 15 : Les itérateurs et générateurs asynchrones
 - [ ] Chapitre 16 : Les modules ECMAScript
