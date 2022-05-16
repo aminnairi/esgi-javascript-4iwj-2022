@@ -1,6 +1,23 @@
 "use strict";
 
 console.log("Chapitre 12");
+console.log("Premier");
+console.log("Second");
+console.log("Troisieme");
+
+let counter = 0;
+
+const limit = 10;
+
+let intervalIdentifier = null;
+
+intervalIdentifier = setInterval(() => {
+  console.log(++counter);
+
+  if (counter >= limit) {
+    clearInterval(intervalIdentifier);
+  }
+}, 1000);
 
 // Exécution d'une fonction anonyme après le délai par défaut
 // Exécution d'une fonction anonyme après N millisecondes
