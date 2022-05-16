@@ -29,3 +29,4 @@ intervalIdentifier = setInterval(() => {
 // Exercice : Afficher "Poire" 2 secondes après le précédent log
 // Exercice : Afficher "Banane" 3 secondes après le précédent log
 // Exercice : Afficher "Mangue" 4 secondes après le précédent log et toutes les 5 secondes
+// Exercice : Au bout de 10 itérations de "Mangue" on arrête l'interval
