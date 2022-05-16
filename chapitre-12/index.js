@@ -1,23 +1,44 @@
 "use strict";
 
-console.log("Chapitre 12");
-console.log("Premier");
-console.log("Second");
-console.log("Troisieme");
+const afterSeconds = (seconds, callback) => {
+  setTimeout(callback, seconds * 1000);
+};
 
-let counter = 0;
+const everySeconds = (seconds, callback) => {
+  let interval = null;
 
-const limit = 10;
+  const cancel = () => {
+    clearInterval(interval);
+  };
 
-let intervalIdentifier = null;
+  interval = setInterval(() => callback(cancel), seconds * 1000);
 
-intervalIdentifier = setInterval(() => {
-  console.log(++counter);
+  return cancel;
+};
 
-  if (counter >= limit) {
-    clearInterval(intervalIdentifier);
-  }
-}, 1000);
+afterSeconds(1, () => {
+  console.log("Pomme");
+
+  afterSeconds(2, () => {
+    console.log("Poire");
+    afterSeconds(3, () => {
+      console.log("Banane");
+      afterSeconds(4, () => {
+        console.log("Mangue");
+
+        let counter = 0;
+
+        everySeconds(5, cancel => {
+          if (counter++ >= 10) {
+            cancel();
+          } else {
+            console.log("Mangue");
+          }
+        });
+      });
+    });
+  });
+});
 
 // Exécution d'une fonction anonyme après le délai par défaut
 // Exécution d'une fonction anonyme après N millisecondes
@@ -30,3 +51,31 @@ intervalIdentifier = setInterval(() => {
 // Exercice : Afficher "Banane" 3 secondes après le précédent log
 // Exercice : Afficher "Mangue" 4 secondes après le précédent log et toutes les 5 secondes
 // Exercice : Au bout de 10 itérations de "Mangue" on arrête l'interval
+
+// Callback Hell
+/*setTimeout(() => {
+  console.log("Pomme");
+
+  setTimeout(() => {
+    console.log("Poire");
+
+    setTimeout(() => {
+      console.log("Banane");
+
+      setTimeout(() => {
+        console.log("Mangue");
+
+        let intervalIdentifier = null;
+        let counter = 0;
+
+        intervalIdentifier = setInterval(() => {
+          if (counter++ >= 10) {
+            clearInterval(intervalIdentifier);
+          } else {
+            console.log("Mangue");
+          }
+        }, 5000);
+      }, 4000);
+    }, 3000);
+  }, 2000);
+}, 1000);*/
