@@ -3,7 +3,24 @@
 console.log("Chapitre 13");
 
 // Callback hell
+
 // Constructeur
+
+const createPromiseAndWait = (seconds, value) => new Promise((resolve, reject) => {
+  reject(new Error(""));
+});
+
+console.log("before");
+
+console.log(createPromiseAndWait(1, 123).then(value => {
+  console.log(value);
+  return createPromiseAndWait(2, value + 1);
+}).then(value => {
+  console.log(value);
+}));
+
+console.log("after");
+
 // États
 // Promise.prototype.then
 // Promise.prototype.catch
