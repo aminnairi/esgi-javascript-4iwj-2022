@@ -44,28 +44,17 @@ console.log("Chapitre 13");
 // Exercice : Rejeter la promesse si le nombre de secondes dépasse la taille maximum sûre d'un entier
 // Exercice : reprendre l'exercice du chapitre précédent (sans l'intervel final)
 
-const sleep = seconds => new Promise((resolve, reject) => {
-  if (seconds > 0) {
-    reject(new Error("Negative seconds"));
-  }
-
-  if (!Number.isInteger(seconds)) {
-    reject(new Error("Non-integer seconds"));
-  }
-
-  if (seconds > Number.MAX_SAFE_INTEGER) {
-    reject(new Error("Unsafe seconds"));
-  }
-
-  setTimeout(resolve, 1000 * seconds);
+const sleep = seconds => new Promise(resolve => {
+  setTimeout(resolve, seconds * 1000);
 });
 
-sleep(1).then(() => {
-  console.log("After 1 seconds");
-  return sleep(2);
-}).then(() => {
-  console.log("After 2 seconds");
-  return sleep(3);
-}).then(() => {
-  console.log("After 3 seconds");
-});
+const main = async () => {
+  await sleep(1);
+  console.log("premier");
+  await sleep(1);
+  console.log("deuxième");
+  await sleep(1);
+  console.log("troisième");
+};
+
+main();
